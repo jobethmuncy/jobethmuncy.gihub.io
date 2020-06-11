@@ -27,7 +27,9 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="https://docs.google.com/document/d/1xdgCbaDGUQUxEhtAyfz0c8tuwd2LOz5UC9SdU8svW5o/edit?usp=sharing">Resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -42,6 +44,7 @@
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/jobethmuncy/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/jobethmuncy"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://medium.com/@jobethmuncy"><i class="fab fa-medium"></i></a>
                     </div>
                 </div>
             </section>
@@ -79,7 +82,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">General Assembly</h3>
-                            <div class="subheading mb-3"Data Science Immersive Probram></div>
+                            <div class="subheading mb-3"Data Science Immersive Program></div>
                             <div>Completed a 500+ hour immersive program developing skills in Python, Scikit-learn, SQL, NLP with extensive use of the Gensim library, web scraping, data cleaning and analysis, Machine Learning, Scala, Spark, and Neural Networks.  Emphasised both statistical analysis and client facing interpretability of data findings.</div>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
@@ -87,36 +90,87 @@
             </section>
             <hr class="m-0" />
             <!-- Skills-->
-            <!-- <section class="resume-section" id="skills">
+             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
                     <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>Mobile-First, Responsive Design
-                        </li>
-                        <li> -->
-                            <!-- <span class="fa-li"><i class="fas fa-check"></i></span>Cross Browser Testing & Debugging
-                        </li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Python</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Pandas</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Numpy</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>SQL</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Spark</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Scala</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Data Visualization</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Machine Learning</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Natural Language Processing (NLP)</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Gensim</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Webscraping</li>
                     </ul>
                 </div>
             </section>
-            <hr class="m-0" /> -->
+             <!-- Projects-->
+             <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Pick me a Wine!</h3><br>
+                    
+                            <img class="img-resposive" src="assets/img/wine.jpg" align="right"/>
+            
+                            <div>The world of wine can be confusing to navigate. Every country has different 
+                                rules and regulations for labeling and selling wines. A wine label itself 
+                                can be difficult to read. If someone knows one or two words about a flavor profile, 
+                                producer, grape, vineyard site, region, appellation how do they find that wine or 
+                                other similar ones? I created a wine recommender that will take text and recommend 
+                                wines that are available to purchase with a link to the site so they can buy and explore.<br>
+                                I scraped 12,000 wines from Astor Wines, Chambers Street, Twenty Twenty Wines, and Wine.com to 
+                                give a broad selection of wine for the user to pick from. Gensim FastText was utilized to take
+                                user input and find words that are the most similiar to the segment and return wines that match 
+                                the description. Direct links to selected wine is provided and each site has their own "similar wines" 
+                                function to continue expanding user selection. <br>To see this project, 
+                                <a href="https://git.generalassemb.ly/jobethmuncy/Submissions/tree/master/Capstone" target="_blank"><strong>click here</strong></a>
+                            </div><br>
+                            <h3 class="mb-0">Indexing and Outbreak</h3><br>
+
+                            <img class="img-resposive" src="assets/img/corona.jpg" align="right"/>
+
+                            <div>COVID-19 brought the world to a stand still. To aid in the race for a vaccine and better understanding of the virus, 
+                                the Semantic Scholar team at the Allen Institute for AI created CORD-19, the COVID Open Research Dataset, in partnership
+                                with Georgetown University, Microsoft Research, Amazon Web Services, the Chan Zuckerberg Initiative, the National 
+                                Institutes of Health, and the White House created a database of over 63,000 scientific papers regarding coronaviruses
+                                and other similar outbreaks from 1957 to today.<br>
+                                How would a researcher find what they are looking for quickly with so much data? In collaberation with FEMA, Clay Carson, 
+                                and Cynthia Chiang, we utilized both Doc2Vec and LDA within the Gensim library to search by keyword or topic. This is 
+                                intened to expidite the research process in the race for a vaccine. <br>
+                                To see this project, 
+                                <a href="https://github.com/jobethmuncy/NLT" target="_blank"><strong>click here</strong></a>
+                            </div><br>
+                            
+                            <h3 class="mb-0">What are they talking about? Cocktails or Wine?</h3><br>
+
+                            <img class="img-resposive" src="assets/img/drinks.png" align="right"/>
+                            <div>I collected 100,000 comments using webscraping and the reddit API from both the cocktail and wine subreddit categories. 
+                                The text was cleaned by removing HTML, non-letters, all words lowercased and tokenized, stopwords removed, and lemmatized. Then 
+                                all words were turned into numerical values using CountVectorizer and TFIDF. Several classification models were trained to best classify unseen
+                                text into the appropriate subreddit category. At the end of the day, the combination of CountVectorizer and Naive Bayes Classifer
+                                was the best combination at 86% accuracy. As a fun experiment on the model, I had friends submit text to me about wine or cocktails 
+                                and the model correctly classified 14 of 15 lines of text. 
+                                <br>
+                                To see this project, 
+                                <a href="https://git.generalassemb.ly/jobethmuncy/Submissions/tree/master/Projects/project_3-master" target="_blank"><strong>click here</strong></a>
+                            </div><br>
+
+
+
+
+
+                        </div>
+                        <!-- <div class="flex-shrink-0"><span class="img-responsive">August 2006 - May 2010</span></div>
+                    </div> -->
+            </section>
+            <hr class="m-0" />
             <!-- Interests-->
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
